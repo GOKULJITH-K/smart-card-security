@@ -43,6 +43,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
+    color: white;
     background:rgb(30, 24, 46);
     display: block;
     margin: auto;
@@ -83,7 +84,8 @@ nav img{
 }
 .hero-btn:hover{
     border:1px solid rgb(24, 24, 49);
-    background: rgb(33, 9, 41);
+    background: rgb(13, 59, 12);
+    color: white;
     transition: 1s;
 }
 nav .bi{
@@ -329,14 +331,48 @@ h3{
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    background: rgb(255, 255, 255);
 
 }
 .footer h4{
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
+    color: rgb(22, 17, 51);
 
 }
+.footer p{
+    color: rgb(0, 0, 0);
+}
+.home{
+    width: 100%;
+    text-align: left;
+    padding: 30px 30px 30px 30px;
+    background: rgb(13, 59, 32);
+    border-radius: 5px 5px 5px 5px;
+
+    
+    
+   
+    
+
+}
+.home h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.home ul {
+    color: white;
+    padding: 30px;
+}
+.home ul li{
+    color: white;
+    padding: 20px;
+}
+
 .icons .bi{
     color: rgb(10, 10, 44);
     margin: 0 13px;
